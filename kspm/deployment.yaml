@@ -30,3 +30,5 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
+      securityContext:
+        runAsNonRoot: true
