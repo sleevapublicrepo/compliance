@@ -30,3 +30,4 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
+          readOnlyRootFilesystem: true
